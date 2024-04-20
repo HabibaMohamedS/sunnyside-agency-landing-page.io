@@ -1,332 +1,332 @@
 .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-    .first{
-     background-image: url("./images/desktop/image-header.jpg");
-      height: 65vh;
-      background-position: center bottom;
-      background-size: cover;
-      color: azure;
-    }
-    @font-face {
-      font-family: 'Barlow';
-      src: url(Barlow-Regular.ttf) format('truetype');
-      font-weight: 600;
-    }
-    @font-face {
-      font-family: 'Fraunces';
-      src: url(Fraunces-VariableFont_SOFT\,WONK\,opsz\,wght.ttf) format('truetype');
-      font-weight: 700;
-    }
-    *{
-      margin: 0;
-      padding: 0;
-      font-family:'Barlow' ;
-    }
-    h1{
-      font-family:'Fraunces' ;
-    }
-    .learn_more1{
-        font-family: 'Fraunces';
-        text-transform: uppercase;
-        cursor: pointer;
-        
-        text-decoration: underline yellow 5px ;
-    }
-    .learn_more2{
-        font-family: 'Fraunces';
-        text-transform: uppercase;
-        cursor: pointer;
-        text-decoration: underline orange 5px ;
-    }
-    #row1, #row2,#row3,#row4,#row5{
-      display: flex;
-      
-    }
-    #row1 div img,#row2 div img,#row3 div img,#row5 div img{
-      width: 100%;
-      height: 100%;
-      object-fit: cover;
-    }
+.attribution a { color: hsl(228, 45%, 44%); }
+.first{
+  background-image: url("./images/desktop/image-header.jpg");
+  height: 65vh;
+  background-position: center bottom;
+  background-size: cover;
+  color: azure;
+}
+@font-face {
+  font-family: 'Barlow';
+  src: url(Barlow-Regular.ttf) format('truetype');
+  font-weight: 600;
+}
+@font-face {
+  font-family: 'Fraunces';
+  src: url(Fraunces-VariableFont_SOFT\,WONK\,opsz\,wght.ttf) format('truetype');
+  font-weight: 700;
+}
+*{
+  margin: 0;
+  padding: 0;
+  font-family:'Barlow' ;
+}
+h1{
+  font-family:'Fraunces' ;
+}
+.learn_more1{
+    font-family: 'Fraunces';
+    text-transform: uppercase;
+    cursor: pointer;
     
-    .transform,.right{
-      flex: 1;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      
-    }
-    #row1 div,#row2 div,#row3 div,#row5 div {
-      flex: 1;
-    }
-    #graphic,#Photography
-    {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      margin-left: 4rem;
-      margin-right: 4rem;
-      padding-top: 60%;
-      padding-bottom: 10%;
-      padding-right: 1rem;
-      padding-left: 1rem;
-      color: hsl(198, 62%, 26%);
-      /* vertical-align: middle;  */
-      text-align: center;
-      
-    }
-    
-    #graphic p,#Photography p{
-        /* padding: 10px 30px;
-        display: -webkit-box; */
-  -webkit-line-clamp: 3;
-  -webkit-box-orient: vertical;  
-  overflow: hidden;
-    text-align: center;
-    }
-    #graphic{
-      color: hsl(167, 40%, 24%);
-     
+    text-decoration: underline yellow 5px ;
+}
+.learn_more2{
+    font-family: 'Fraunces';
+    text-transform: uppercase;
+    cursor: pointer;
+    text-decoration: underline orange 5px ;
+}
+#row1, #row2,#row3,#row4,#row5{
+  display: flex;
   
-    }
-    #cherry{
-      background-image: url("./images/desktop/image-graphic-design.jpg" );
-      background-size: cover;
-      background-repeat: no-repeat;
-      width: 100%;
-      /* height: 100%; */
-      background-position-y: top;
-      background-position-x: center;
-    }
-    #tangarin{
-      background-image: url("./images/desktop/image-photography.jpg" );
-      width: 100%;
-      /* height: 100%; */
-      background-size: cover;
-      background-repeat: no-repeat;
-      background-position-y: top;
-      background-position-x: center;
-    }
-    #row4 {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      padding: 50px;
-    }
-    #people{
-      display: flex;
-    }
-    #Emily,#Thomas,#Jennie {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-    }
-    #Emily img,#Thomas img,#Jennie img{
-      border-radius: 50%;
-      padding: 50px;
-      width: 60px;
-      justify-content: center;
+}
+#row1 div img,#row2 div img,#row3 div img,#row5 div img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
 
-    }
-    #final{
-      background-color:#90d4c5 ;
-      color: hsl(168, 34%, 41%);
-      height: 30vh;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-    }
-    svg path{
-        fill: hsl(168, 34%, 41%);
-    }
-    #final div{
-      padding: 10px;
-    }
-    .logo{
-        display: flex;
-        justify-content: center;
-        color: hsl(167, 40%, 24%);
-    }
-    .socials{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    .socials svg{
-        margin: 6px;
-        cursor: pointer;
-        
-    }
-    .socials svg path:hover{
-        fill: aliceblue;
-        transition: all 0.2s ease-in ;
-    }
-    #footer p{
-      display: flex;
-      justify-content: space-around;
-      align-items: center;
-    }
-    #footer{
-      display: flex;
-      flex-direction: row;
-      justify-content: space-between;
-        font-weight: bolder;
-       
-    }
-    #footer p:hover{
-        color: aliceblue;
-        cursor: pointer;
-        transition: all 0.25s ease-in ;
-    }
-    #sunny,#sunny div{
-      display: flex;
-      padding: 10px;
-    }
-    #sunny{
-      justify-content: space-between;
-      height: 50px;
-      font-family: 'Barlow';
-    }
-    #menu{
-      left: 0;
-      align-items: center;
-     
-    }
-    #menu p{
-      padding: 9px; 
-      font-weight: bold;
-      cursor: pointer;
-    }
-    #creartive{
-      align-items: center;
-      justify-content: center;
-      text-align: center;
-      padding-top: 10vh;
+.transform,.right{
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+#row1 div,#row2 div,#row3 div,#row5 div {
+  flex: 1;
+}
+#graphic,#Photography
+{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-left: 4rem;
+  margin-right: 4rem;
+  padding-top: 60%;
+  padding-bottom: 10%;
+  padding-right: 1rem;
+  padding-left: 1rem;
+  color: hsl(198, 62%, 26%);
+  /* vertical-align: middle;  */
+  text-align: center;
+  
+}
+
+#graphic p,#Photography p{
+    /* padding: 10px 30px;
+    display: -webkit-box; */
+-webkit-line-clamp: 3;
+-webkit-box-orient: vertical;  
+overflow: hidden;
+text-align: center;
+}
+#graphic{
+  color: hsl(167, 40%, 24%);
+  
+
+}
+#cherry{
+  background-image: url("./images/desktop/image-graphic-design.jpg" );
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  /* height: 100%; */
+  background-position-y: top;
+  background-position-x: center;
+}
+#tangarin{
+  background-image: url("./images/desktop/image-photography.jpg" );
+  width: 100%;
+  /* height: 100%; */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-y: top;
+  background-position-x: center;
+}
+#row4 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 50px;
+}
+#people{
+  display: flex;
+}
+#Emily,#Thomas,#Jennie {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#Emily img,#Thomas img,#Jennie img{
+  border-radius: 50%;
+  padding: 50px;
+  width: 60px;
+  justify-content: center;
+
+}
+#final{
+  background-color:#90d4c5 ;
+  color: hsl(168, 34%, 41%);
+  height: 30vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+svg path{
+    fill: hsl(168, 34%, 41%);
+}
+#final div{
+  padding: 10px;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    color: hsl(167, 40%, 24%);
+}
+.socials{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.socials svg{
+    margin: 6px;
+    cursor: pointer;
     
-      
-    }
-    #creartive h1{
-      font-size: 40px;
-    }
-    #arrow{
-      padding-top: 4vh;
-    }
-    #btn{
-      background-color: white;
-      color: black;
-      padding: 5px 15px;
-      border-radius: 20px;
-      font-size: 1rem;
-      font-family: 'Fraunces';
-      
-    }
-    #btn:hover{
-     background-color:  rgba(255,255,255,.5);
-     color: azure;
-     cursor: pointer;
-     transition: 0.2s;
-    }
-    .center{
-      width: 20%;
-      padding: 40px;
-    }
-    .center p{
-      color: gray;
-      margin-bottom: 15px;
-    }
-    .center h1{
-      font-size: 40px;
-      margin-bottom: 10px;
-    }
-    .right .center{
-      width: 20%;
-      padding: 40px;
-    }
-    .right .center p{
-      color: gray;
-      margin-bottom: 15px;
-    }
-    .right .center h1{
-      font-size: 40px;
-      margin-bottom: 10px;
-    }
-    body{
-      min-width: 610px;
-    }
-    #row4 h3{
-      color:  lightgrey;
-      font-family: 'Fraunces';
-      letter-spacing: 2px;
-      
-    }
-    .name{
-      font-family: 'Fraunces';
-      padding-top: 40px;
-      padding-bottom: 10px;
-    }
-    .postion{
-      color: lightgray;
-    }
-    .para{
-      text-align: center;
-    }
+}
+.socials svg path:hover{
+    fill: aliceblue;
+    transition: all 0.2s ease-in ;
+}
+#footer p{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+#footer{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+    font-weight: bolder;
+    
+}
+#footer p:hover{
+    color: aliceblue;
+    cursor: pointer;
+    transition: all 0.25s ease-in ;
+}
+#sunny,#sunny div{
+  display: flex;
+  padding: 10px;
+}
+#sunny{
+  justify-content: space-between;
+  height: 50px;
+  font-family: 'Barlow';
+}
+#menu{
+  left: 0;
+  align-items: center;
+  
+}
+#menu p{
+  padding: 9px; 
+  font-weight: bold;
+  cursor: pointer;
+}
+#creartive{
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding-top: 10vh;
 
-    @media (max-width:480px){
-        #row1, #row2,#row3,#row4,#people{
-            display: flex;
-            flex-direction: column;
-            
-          }
-          #people p{
-            padding-left: 3rem;
-            padding-right: 3rem;
-          }
-          #row1{
-            flex-direction: column-reverse;
-          }
-          .first{
-            background-image: url("./images/mobile/image-header.jpg") ;
-            background-repeat: no-repeat;
-             height:100%;
-             width: 100%;
-             height: 60vh;
-             background-position: center bottom;
-             background-size: cover;
-             color: azure;
-           }
-           #creartive h1{
-            font-size: 2rem;
-           }
-           #creartive {
-                padding-top: 5vh;
-           }
-           #arrow{
-            padding-top: 2vh;
-           }
-           #menu p{
-            display: none;
-           }
-           .right .center{
-            display: flex;
-            flex-direction: column;
-            padding-top: 30%;
-            height: 45vh;
-            text-align: center;
-            
-            align-items: center;
-            justify-items: center;
-           }
-           .center{
-            display: flex;
-            flex-direction: column;
-            height: 45vh;
-            padding-right: 3rem;
-            padding-left: 3rem;
-            align-items: center;
-            justify-items: center;
-            text-align: center;
-            align-self: center;
-            padding-top: 30%;
-           }
-    }
+  
+}
+#creartive h1{
+  font-size: 40px;
+}
+#arrow{
+  padding-top: 4vh;
+}
+#btn{
+  background-color: white;
+  color: black;
+  padding: 5px 15px;
+  border-radius: 20px;
+  font-size: 1rem;
+  font-family: 'Fraunces';
+  
+}
+#btn:hover{
+  background-color:  rgba(255,255,255,.5);
+  color: azure;
+  cursor: pointer;
+  transition: 0.2s;
+}
+.center{
+  width: 20%;
+  padding: 40px;
+}
+.center p{
+  color: gray;
+  margin-bottom: 15px;
+}
+.center h1{
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+.right .center{
+  width: 20%;
+  padding: 40px;
+}
+.right .center p{
+  color: gray;
+  margin-bottom: 15px;
+}
+.right .center h1{
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+body{
+  min-width: 610px;
+}
+#row4 h3{
+  color:  lightgrey;
+  font-family: 'Fraunces';
+  letter-spacing: 2px;
+  
+}
+.name{
+  font-family: 'Fraunces';
+  padding-top: 40px;
+  padding-bottom: 10px;
+}
+.postion{
+  color: lightgray;
+}
+.para{
+  text-align: center;
+}
+
+@media screen and (max-width: 480px){
+    #row1, #row2,#row3,#row4,#people{
+        display: flex;
+        flex-direction: column;
+        
+      }
+      #people p{
+        padding-left: 3rem;
+        padding-right: 3rem;
+      }
+      #row1{
+        flex-direction: column-reverse;
+      }
+      .first{
+        background-image: url("./images/mobile/image-header.jpg") ;
+        background-repeat: no-repeat;
+          height:100%;
+          width: 100%;
+          height: 60vh;
+          background-position: center bottom;
+          background-size: cover;
+          color: azure;
+        }
+        #creartive h1{
+        font-size: 2rem;
+        }
+        #creartive {
+            padding-top: 5vh;
+        }
+        #arrow{
+        padding-top: 2vh;
+        }
+        #menu p{
+        display: none;
+        }
+        .right .center{
+        display: flex;
+        flex-direction: column;
+        padding-top: 30%;
+        height: 45vh;
+        text-align: center;
+        
+        align-items: center;
+        justify-items: center;
+        }
+        .center{
+        display: flex;
+        flex-direction: column;
+        height: 45vh;
+        padding-right: 3rem;
+        padding-left: 3rem;
+        align-items: center;
+        justify-items: center;
+        text-align: center;
+        align-self: center;
+        padding-top: 30%;
+        }
+}
